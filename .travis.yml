@@ -22,7 +22,6 @@ after_success:
   - docker push goil/multi-server
   - docker push goil/multi-worker
 
-
 deploy:
   provider: elasticbeanstalk 
   region: 'eu-central-1'
